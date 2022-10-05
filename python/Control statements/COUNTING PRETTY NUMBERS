@@ -1,0 +1,16 @@
+#COUNTING PRETTY NUMBERS
+t=int(input())
+
+for i in range(t):
+
+    a,b=map(int,input().split())
+
+    count=0
+
+    for i in range(a,b+1):
+
+        if i%10 in [2,3,9]:
+
+            count+=1
+
+    print(count)
