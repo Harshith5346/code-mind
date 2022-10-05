@@ -1,0 +1,5 @@
+#FIND SUM OF NATURAL NUMBERS
+a=int(input())
+
+print((a*(a+1))//2)
+
