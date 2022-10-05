@@ -1,0 +1,3 @@
+#PROGRAM TO FIND MAXIMUM NUMBER OF HANDSHAKES
+a=int(input())
+print(int(a*(a-1)/2))
